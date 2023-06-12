@@ -1,0 +1,15 @@
+> frontend@1.1.0 start
+> ng serve --port 4200 --host 0.0.0.0 --disable-host-check --proxy-config=proxy.conf.json
+npm ERR! code EACCES
+npm ERR! syscall open
+npm ERR! path /opt/app-root/src/.npm/_cacache/tmp/322ee044
+npm ERR! errno -13
+npm ERR!
+npm ERR! Your cache folder contains root-owned files, due to a bug in
+npm ERR! previous versions of npm which has since been addressed.
+npm ERR!
+npm ERR! To permanently fix this problem, please run:
+npm ERR! sudo chown -R 1000690000:0 "/opt/app-root/src/.npm"
+npm timing npm Completed in 188ms
+npm ERR! Log files were not written due to an error writing to the directory: /opt/app-root/src/.npm/_logs
+npm ERR! You can rerun the command with `--loglevel=verbose` to see the logs in your terminal
